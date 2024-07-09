@@ -32,21 +32,22 @@ box-shadow: 5px 5px 17px 14px rgb(95, 52, 52);
   border-radius: 5px;
   
 }
+.footer a{
+  color: black;
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 .aside {
   width: 250px;
-  background-color: #f4f4f4;
+  background-color: rgba(95, 52, 52, 0.384);
   padding: 15px;
   box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
   height: 1000px;
 }
-.aside nav ul {
+.aside a{
+  font-size: 20px;
+  color: black;
   list-style-type: none;
   padding: 0;
-}
-.aside nav ul li {
-  margin: 10px 0;
-}
-.aside nav ul li a {
-  text-decoration: none;
-  color: #333;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
