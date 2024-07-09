@@ -1,0 +1,52 @@
+#root {
+  background-color: white;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  background-color: aquamarine;
+  color: rgb(95, 52, 52);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+  position: sticky;
+  border-radius: 15px;
+  
+  padding: 10px;
+  -webkit-box-shadow: 5px 5px 17px 14px rgb(95, 52, 52); 
+box-shadow: 5px 5px 17px 14px rgb(95, 52, 52);
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: aquamarine;
+  color: black;
+  text-align: center;
+  position: sticky;
+  -webkit-box-shadow: 5px 5px 17px 14px rgb(95, 52, 52); 
+  box-shadow: 5px 5px 17px 14px rgb(95, 52, 52);
+  border-radius: 5px;
+  
+}
+.aside {
+  width: 250px;
+  background-color: #f4f4f4;
+  padding: 15px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  height: 1000px;
+}
+.aside nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+.aside nav ul li {
+  margin: 10px 0;
+}
+.aside nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
