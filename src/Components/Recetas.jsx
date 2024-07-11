@@ -1,31 +1,23 @@
 import { useState } from "react";
 import recetasArr from "../assets/data/recetas.json";
+import RecetaCard from "./RecetaCard";
+import { Link } from "react-router-dom";
+
 
 function Recetas() {
   const [receta, setReceta] = useState(recetasArr);
 
-  const aLaBasura = (indexBorrar) => {
+  function aLaBasura (index) {
     const clone = JSON.parse(JSON.stringify(receta));
-    clone.splice(indexBorrar, 1);
+    clone.splice(index, 1);
     setReceta(clone);
   };
 
   return (
     <div className="card-container">
       {receta.map((eachRecetas, index) => {
-        return (
-          <div className="receta-card">
-            <img src={eachRecetas.image} alt="" width="60px" height="60px" />
-            <h2>{eachRecetas.name}</h2>
-
-            <p>
-              {eachRecetas.calories}kcal{" "}
-              {eachRecetas.calories > 400 ? <span>🫀</span> : <span>🥦</span>}
-            </p>
-            <p>Raciones: {eachRecetas.servings}</p>
-            <button onClick={() => aLaBasura(index)}>A la basura</button>
-          </div>
-        );
+        return <Link to={`/recetas/${eachRecetas.id}`}> <RecetaCard key={eachRecetas.id} eachRecetas={eachRecetas} aLaBasura={aLaBasura} index={index}/>
+        </Link>
       })}
     </div>
   );

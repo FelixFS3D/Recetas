@@ -15,14 +15,7 @@ function HomePage() {
           <a href="/">About</a>
         </aside>
 
-        <Recetas />
       </div>
-
-      <footer className="footer">
-        <a href="https://github.com/FelixFS3D/Recetas.git">
-          Repositorio GitHub
-        </a>
-      </footer>
     </div>
   );
 }
