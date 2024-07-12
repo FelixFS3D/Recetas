@@ -1,3 +1,4 @@
+import Formulario from "../../Components/Formulario"
 
 
 function About() {
@@ -11,6 +12,7 @@ Felix Romero Gonzalez
 Marcos Cardoza Sevilla
 <br />
 
+<Formulario />
     </div>
   )
 }

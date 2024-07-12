@@ -1,5 +1,6 @@
 
 
+import Formulario from "../../Components/Formulario"
 import Recetas from "../../Components/Recetas"
 
 function Paginaprincipal() {
@@ -7,8 +8,9 @@ function Paginaprincipal() {
   
   return (
     <div>
-      {}
+      
 <Recetas />
+
 
     </div>
   )
