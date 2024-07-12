@@ -12,7 +12,7 @@ function HomePage() {
           <br />
           <a href="/">Pagina de inicio</a>
           <br />
-          <a href="/">About</a>
+          <a href="">About</a>
         </aside>
 
       </div>

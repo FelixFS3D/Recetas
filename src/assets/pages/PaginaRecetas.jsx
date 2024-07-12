@@ -1,5 +1,9 @@
 
+
 import RecetaCard from "../../Components/RecetaCard"
+
+
+
 
 function PaginaRecetas() {
     

@@ -1,7 +1,10 @@
 
+
 import Recetas from "../../Components/Recetas"
 
 function Paginaprincipal() {
+
+  
   return (
     <div>
       {}

@@ -21,9 +21,11 @@ function App() {
 
       <aside className="aside">
           <br />
-          <a href="/">Pagina de inicio</a>
+
+          <Link to="/">Tutti los platis</Link>
           <br />
-          <a href="/about">About</a>
+          <Link to = "/about">De los creadores de...</Link>
+          
           </aside>
     <Routes>
   
