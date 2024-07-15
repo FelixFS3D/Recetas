@@ -7,7 +7,7 @@ function About() {
 
 Creadores:
 <br />
-Felix Romero Gonzalez
+Félix Romero González
 <br />
 Marcos Cardoza Sevilla
 <br />

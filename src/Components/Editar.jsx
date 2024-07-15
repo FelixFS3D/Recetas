@@ -1,13 +1,17 @@
-import { useState } from "react";
-import recetasArr from "../assets/data/recetas.json"
+import { useState,useParams } from "react"
 
-function Formulario(props) {
-  const [image, setImage] = useState(``);
-  const [name, setName] = useState(``);
-  const [calories, setCalories] = useState(0);
-  const [raciones, setRaciones] = useState(0);
 
-  const handleSubmit = (event) => {
+
+
+function Editar() {
+    const [image, setImage] = useState(``);
+    const [name, setName] = useState(``);
+    const [calories, setCalories] = useState(0);
+    const [raciones, setRaciones] = useState(0);
+    const { id } = useParams();
+  const receta = recetasArr.find((receta) => receta.id.toString() === id);
+
+ const handleSubmit = (event) => {
     event.preventDefault();
 
     const newReceta = {
@@ -17,13 +21,7 @@ function Formulario(props) {
       calories,
       raciones,
     };
-    const actualizarRecetas = [...props.receta, newReceta];
-    props.setReceta(actualizarRecetas);
-
-    setImage("");
-    setName("");
-    setCalories(0);
-    setRaciones(0);
+    
   };
 
   return (
@@ -75,4 +73,4 @@ function Formulario(props) {
   );
 }
 
-export default Formulario;
+export default Editar

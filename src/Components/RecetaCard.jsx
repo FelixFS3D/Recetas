@@ -21,7 +21,7 @@ function RecetaCard(props) {
         </div>
       </Link>
 
-      <button onClick={() => props.aLaBasura(props.index)}>A la basura</button>
+      <button className="btn-basura" onClick={() => props.aLaBasura(props.index)}>A la basura</button>
     </div>
   );
 }

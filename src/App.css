@@ -37,6 +37,8 @@
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 .aside {
+  display: flex;
+ 
   width: 250px;
   background-color: rgba(95, 52, 52, 0.384);
   padding: 15px;
@@ -66,4 +68,10 @@
   border: 2px solid black;
   margin: 5px;
   align-items: center;
+}
+.btn-basura {
+  background-color: aquamarine;
+  border-radius: 5px;
+  color: rgba(95, 52, 52, 0.384);
+  width: 80px;
 }

@@ -10,6 +10,7 @@ function PaginaRecetas() {
   return (
     <div>
 <RecetaCard />
+
     </div>
   )
 }
