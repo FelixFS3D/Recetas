@@ -6,6 +6,7 @@ import logo from "./assets/Images/Logo1.png";
 import PaginaRecetas from './assets/pages/PaginaRecetas.jsx';
 import About from './assets/pages/About.jsx';
 import NotFound from './assets/pages/NotFound.jsx';
+import RecetaDetalle from './Components/RecetasDeatails.jsx';
 
 
 
@@ -30,7 +31,7 @@ function App() {
     <Routes>
   
 <Route path="/" element={<Paginaprincipal />}/>
-<Route path="/recetas/:recetaId" element={<PaginaRecetas />}/>
+<Route path="/recetas/:id" element={<RecetaDetalle />}/>
 <Route path="/about" element={<About />}/>
 <Route path="*" element={<NotFound />}/>
         

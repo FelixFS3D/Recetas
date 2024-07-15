@@ -28,6 +28,7 @@ function Recetas() {
        
         
       })}
+      <Formulario receta={receta} setReceta={setReceta} />
     </div>
   );
 }
