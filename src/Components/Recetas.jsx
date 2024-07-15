@@ -23,7 +23,8 @@ function Recetas() {
         return (
           <RecetaCard key={eachRecetas.id} eachRecetas={eachRecetas} aLaBasura={aLaBasura} index={index} />
         )
-  
+        //Este hace que no funcione el boton
+        //<Link to={`/recetas/${eachRecetas.id}`}>  </Link>
        
         
       })}
