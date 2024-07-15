@@ -7,7 +7,6 @@ import PaginaRecetas from './assets/pages/PaginaRecetas.jsx';
 import About from './assets/pages/About.jsx';
 import NotFound from './assets/pages/NotFound.jsx';
 import RecetaDetalle from './Components/RecetasDeatails.jsx';
-import Editar from './Components/Editar.jsx';
 
 
 
